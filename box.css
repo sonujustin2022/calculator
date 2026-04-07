@@ -4,28 +4,45 @@
 }
 
 #calcBody {
-    height: 400px;
+    height: 465px;
     width: 300px;
     background-color: gray;
 }
 .btn{
+    width: 60px;
+    height: 60px;
      font-size: 20px;
-    padding: 20px;
+   font-weight: 600;
     border: none;
-    border-radius: 10px;
+    border-radius: 40px;
+}
+
+.btn:hover{
+    background-color: bisque;
 }
 
 .btn-calc{
+    width: 60px;
+    height: 60px;
     background-color: orange;
   font-size: 20px;
-    padding: 20px;
+    font-weight: 600;
     border: none;
-    border-radius: 10px;
+     border-radius: 40px;
+}
+.btn-calc:hover{
+    background-color:  rgb(238, 160, 15);
 }
 
 .btn-clear{
+    width: 60px;
+    height: 60px;
+    background-color: crimson;
     font-size: 20px;
-    padding: 20px;
+   font-weight: 300;
     border: none;
-    border-radius: 10px;
+    border-radius: 40px;
+}
+.btn-clear:hover{
+    background-color:rgb(175, 18, 49);
 }
